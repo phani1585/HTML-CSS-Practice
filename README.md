@@ -1,2 +1,2 @@
-# Youtube-Front-End-With-Html
-only html and css for youtube front end
+# All HTML Practice files comes here
+this repo is only for html and css practice projects
