@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Front End</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="logo-box"></div>
+      <nav class="header-nav">
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+        <div class="nav-btn"></div>
+      </nav>
+    </header>
+    <main>
+      <section class="main-video-section">
+        <div class="video-wrapper">
+          <video
+            src="https://www.w3schools.com/html/movie.mp4"
+            controls
+            autoplay
+            loop
+            muted
+            height="100%"
+            width="100%"
+          >
+            <p>there is a video here</p>
+          </video>
+          <progress value="70" max="100"></progress>
+          <audio src="##" controls></audio>
+          <p class="video-title">Video Title Comes Here</p>
+          <div class="video-description"></div>
+        </div>
+      </section>
+      <aside class="main-video-aside">
+        <div class="video-pages"></div>
+      </aside>
+    </main>
+    <footer></footer>
+  </body>
+</html>
