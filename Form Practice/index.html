@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="form-wrapper">
+        <div class="title">Register</div>
+        <form action="index.html" method="get">
+          <div class="input-box">
+            <input type="text" name="name" id="name" placeholder="Name" />
+            <input
+              type="text"
+              name="surname"
+              id="surname"
+              placeholder="Surname"
+            />
+          </div>
+          <div class="input-box">
+            <input
+              type="email"
+              name="email-id"
+              id="email-id"
+              placeholder="Email"
+            />
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Create Password"
+            />
+          </div>
+          <div class="input-box">
+            <input type="submit" id="submit-btn" value="Register" />
+            <p class="down-text free-for-days">try Free for 14 days</p>
+          </div>
+        </form>
+        <div class="already-member-wrapper">
+          <p class="down-text already-member">Already a member?</p>
+          <p class="down-text"><a id="sign-in-link" href="#">sign in</a></p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
